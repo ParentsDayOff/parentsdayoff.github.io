@@ -1,0 +1,138 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	text-align: left;
+	background-image: url('giftly.png');
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 20px;
+
+}
+
+#wrapper {
+	padding-bottom: 160px;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	background-image: url('giftly.png');
+}
+
+#header {
+	padding: 10px;
+	font-size: 32px;
+	opacity: 0.8;
+	text-align: center;
+	color: black;
+	width: 100%;
+}
+
+#content {
+	width: auto;
+	height: auto;
+	margin-right: 75px;
+	margin-left: 75px;
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	border: double;
+	padding: 40px;
+	background-image: url('brickwall.png');
+}
+
+.introtext {
+	font-size: 18px;
+	text-align: justify;
+	color: black;
+	padding: 20px;
+}
+
+.introtext2 {
+	font-size: 18px;
+	text-align: justify;
+	color: black;
+	padding: 20px;
+	width: 650px;
+	float: right;
+}
+
+#footer {
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 16px;
+	padding: 25px;
+	text-align: center;
+	opacity: 0.8;
+	width: 100%;
+	padding-bottom: 25px
+}
+
+#button{
+	padding: 10px;
+}
+
+button {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding-bottom: 15px;
+	position: relative;
+	left: 15px;
+	color: white;
+	background-color: lightgrey;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+img {
+	padding: 15px;
+	height: auto;
+}
+
+table {
+	float: center;
+	position: relative;
+	left: 30%;
+	text-align: left;
+}
+
+#profileimg {
+	width: auto;
+	height: 300px;
+	float: left;
+}
+
+.btn {
+	font-size: 40px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+a:active {
+	color: gray;
+}
+
+td {
+	position: relative;
+	right: 300px;
+}
